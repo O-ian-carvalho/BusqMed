@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 :root {
     --cinza: #bdc8ca;
     --verdeClaro: #18b0b1;
