@@ -1,3 +1,10 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 :root {
     --cinza: #bdc8ca;
     --verdeClaro: #18b0b1;
