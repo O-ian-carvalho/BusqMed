@@ -46,14 +46,42 @@
 
 #header nav ul li:hover{
     cursor: pointer;
-    border: 2px solid #fff;
-
+    border: 1px solid #fff;
+    padding: 5px 14px;
+    background-color: #ffffff41;
 
 }
 
-#header nav ul li 
+#header nav ul li
 {
-    padding: 5px 14px;
+    padding: 7px 16px;
+
     border-radius: 7px;
     font-size: 22pt;
 }
+
+#header nav ul li a
+{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#header nav ul li .active-link {
+    font-weight: bold;
+    color: var(--azul-escuro);
+  }
+  
+  @media(max-width: 700px){
+    #header nav ul li{
+        font-size: 16pt;
+    }
+
+  }
+
+  @media(max-width: 500px){
+    
+    #middle img{
+        width: 80vw;
+    }
+  }

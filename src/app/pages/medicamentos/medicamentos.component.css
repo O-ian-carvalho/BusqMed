@@ -1,17 +1,17 @@
-#home{
+#medicamentos{
     display: flex;
     flex-direction: column;
     background-color: var(--cinza);
     padding-bottom: 100px;
 }
 
-#home #top{
+#medicamentos #top{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 60px 120px;
 }
-#home #top img{
+#medicamentos #top img{
     width: 400px;
     margin-left: 40px;
 }
@@ -50,4 +50,40 @@
     padding: 0 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+
+@media(max-width: 1000px)
+{
+   #medicamentos{
+    align-items: center;
+    justify-content: center;
+   }
+    #medicamentos #top{
+        width: 100%;
+        padding: 60px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #medicamentos #top img{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    #quemsomos{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #medicamentos #top{
+        flex-wrap: wrap;
+        margin-left: 0;
+        width: 80vw;
+    }
+
+    
 }
