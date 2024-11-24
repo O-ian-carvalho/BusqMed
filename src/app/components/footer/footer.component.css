@@ -2,17 +2,18 @@
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 0px;
     height: 110px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 /* Logo à esquerda */
 footer img {
-    height: 100px; /* Tamanho proporcional ao footer */
+    height: 150px; /* Tamanho proporcional ao footer */
     width: auto;
 }
 
@@ -47,5 +48,6 @@ footer .app-main .footer-button {
     width: 100%; /* Faz os botões ocuparem toda a largura */
     font-size: 16px;
     cursor: pointer;
+    text-align: end;
   }
   
