@@ -13,7 +13,7 @@ export class MedicamentosService {
 
   getMedicamentos() : Observable<any>
   {
-    return this.client.get(`http://localhost:3000/medicamentos`);
+    return this.client.get(`https://json-server-busq-med.vercel.app/medicamentos`);
   }
 
 
