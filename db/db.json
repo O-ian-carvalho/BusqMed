@@ -1,0 +1,20 @@
+{
+    "medicamentos": [
+      {
+        "id": 1,
+        "titulo": "Paracetamol",
+        "descricao": "Medicamento utilizado para alívio de febre e dores leves a moderadas."
+      },
+      {
+        "id": 2,
+        "titulo": "Ibuprofeno",
+        "descricao": "Anti-inflamatório usado para tratar dor, febre e inflamações."
+      },
+      {
+        "id": 3,
+        "titulo": "Amoxicilina",
+        "descricao": "Antibiótico utilizado no tratamento de infecções bacterianas."
+      }
+    ]
+  }
+  
