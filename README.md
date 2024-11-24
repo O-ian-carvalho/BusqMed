@@ -1,4 +1,15 @@
 # BusqueMedFront
+![BUSQMED LOGO 1](https://github.com/user-attachments/assets/2abab86c-9c1b-4819-8ba0-447c69465f16)
+
+
+BusqueMed: Seu guia para uma vida mais saudável 
+
+O que é?
+
+
+O BusqueMed é um aplicativo que ajuda você a encontrar medicamentos em farmácias mais próximas além de te manter informado sobre campanhas de saúde.
+
+#BusqueMed # saúde # medicamentos # campanhas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 

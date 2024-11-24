@@ -1,0 +1,53 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+    padding-bottom: 100px;
+}
+
+#home #top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 120px;
+}
+#home #top img{
+    width: 400px;
+    margin-left: 40px;
+}
+#opine h3{
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+#opine p{
+    font-size: 17pt;
+}
+
+#list p{
+    font-size: 17pt;
+}
+
+#list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#list .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#list .card input {
+    width: 1000px;
+    height: 400px;
+    font-size: 16px; 
+    border-radius: 8px; 
+    border: 1px solid var(--cinza-escuro); 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
