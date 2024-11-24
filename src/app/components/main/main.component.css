@@ -1,0 +1,49 @@
+.container {
+    background-color: var(--cinza); /* Cor de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.container-content {
+    display: flex;
+    align-items: flex-start; /* Alinha a imagem com o início do texto */
+    gap: 20px; /* Espaçamento entre o texto e a imagem */
+    max-width: 800px;
+}
+
+.container-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    flex: 1; /* Garante que o texto ocupe o espaço disponível */
+}
+
+.container-content img {
+    max-width: 400px;
+    height: 250px;
+}
+
+.botao-container {
+    display: flex;
+    justify-content: space-between; /* Distribui horizontalmente os ícones */
+    align-items: center;
+    gap: 40px; /* Espaçamento entre os elementos */
+}
+
+.botao-container img {
+    max-width: 100px; /* Tamanho das imagens ícones */
+    height: auto;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
