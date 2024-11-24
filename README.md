@@ -1,38 +1,85 @@
-# BusqueMedFront
-![BUSQMED LOGO 1](https://github.com/user-attachments/assets/2abab86c-9c1b-4819-8ba0-447c69465f16)
+# Plataforma de Informações sobre Medicamentos do SUS
 
+## Descrição do Projeto
 
-BusqueMed: Seu guia para uma vida mais saudável 
+A plataforma é uma aplicação desenvolvida em **Angular** que visa informar os cidadãos sobre os medicamentos disponíveis no Sistema Único de Saúde (SUS), orientar sobre como acessar os serviços relacionados e localizar os pontos de distribuição mais próximos. Além disso, a plataforma conta com um canal de comunicação onde os usuários podem relatar problemas e enviar sugestões para promover a melhoria contínua da prestação dos serviços de saúde.
 
-O que é?
+---
 
+## Funcionalidades Principais
 
-O BusqueMed é um aplicativo que ajuda você a encontrar medicamentos em farmácias mais próximas além de te manter informado sobre campanhas de saúde.
+1. **Informação sobre Medicamentos do SUS**:
+   - Lista completa de medicamentos disponíveis no SUS.
+   - Pesquisa por nome do medicamento, categoria ou indicação.
+   - Detalhes sobre indicações, contraindicações e formas de uso.
 
-#BusqueMed # saúde # medicamentos # campanhas
+2. **Orientação para Acesso aos Serviços**:
+   - Passo a passo para obter medicamentos gratuitos ou subsidiados.
+   - Informações sobre a documentação necessária.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+3. **Localização de Pontos de Distribuição**:
+   - Mapas interativos que mostram farmácias públicas e privadas participantes do programa Farmácia Popular.
+   - Exibição de endereço, telefone e horários de funcionamento.
+   - Funcionalidade de geolocalização para identificar pontos de distribuição próximos.
 
-## Development server
+4. **Canal de Comunicação**:
+   - Formulário para relato de problemas (ex.: falta de medicamentos).
+   - Possibilidade de envio de sugestões para melhorias nos serviços de saúde.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend**:
+  - Angular
+  - HTML, CSS, TypeScript
+- **Backend Simulado**:
+  - JSON Server (para simular a API)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Pré-requisitos
 
-## Running unit tests
+Antes de começar, certifique-se de ter instalado:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. [Node.js](https://nodejs.org/)
+2. [Angular CLI](https://angular.io/cli)
+3. JSON Server:
+   ```bash
+   npm install -g json-server
+   ```
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Instalação
 
-## Further help
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. **Instale as dependências do Angular**:
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o JSON Server**:
+   - Crie um arquivo `db.json` no diretório raiz com a seguinte estrutura inicial:
+     ```json
+     {
+       "medicamentos": [],
+       "pontosDeDistribuicao": [],
+       "relatos": []
+     }
+     ```
+   - Execute:
+     ```bash
+     json-server --watch db.json --port 3000
+     ```
+
+4. **Inicie o servidor de desenvolvimento Angular**:
+   ```bash
+   ng serve
+   ```
+.
