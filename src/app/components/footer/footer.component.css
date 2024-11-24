@@ -1,12 +1,14 @@
 /* Reset */
-footer {
+footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px;
     height: 110px;
     bottom: 0;
+
 }
+
 
 /* Logo à esquerda */
 footer img {
@@ -49,3 +51,17 @@ footer .app-main .footer-button {
     margin-bottom: 10px;
   }
   
+
+  @media(max-width: 700px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 500px;
+        padding: 50px 0;
+    }
+    .footer-button{
+        text-align: center;
+    }
+}

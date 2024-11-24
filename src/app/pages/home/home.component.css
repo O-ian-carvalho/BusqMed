@@ -50,3 +50,45 @@
     border-right:  2px solid var(--verdeClaro);
     padding: 0 100px;
 }
+
+
+@media(max-width: 1000px)
+{
+   #home{
+    align-items: center;
+    justify-content: center;
+   }
+    #home #top{
+        width: 100%;
+        padding: 60px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #home #top img{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    #quemsomos{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #quemsomos p{
+        text-align: justify;
+    }
+    #home #top{
+        flex-wrap: wrap-reverse;
+        margin-left: 0;
+        width: 80vw;
+    }
+
+    #list #middleCard{
+        border: 0;
+        border-top:  2px solid var(--verdeClaro);
+        border-bottom:  2px solid var(--verdeClaro);
+        padding: 50px 0;
+    }
+    
+}
