@@ -1,0 +1,52 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+    padding-bottom: 100px;
+}
+
+#home #top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 120px;
+}
+#home #top img{
+    width: 400px;
+    margin-left: 40px;
+}
+#quemsomos h3{
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+#quemsomos p{
+    font-size: 17pt;
+}
+
+
+#list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#list .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#list .card img{
+    width: 220px;
+    margin-bottom: 50px;
+}
+
+
+#list #middleCard{
+    border-left:  2px solid var(--verdeClaro);
+    border-right:  2px solid var(--verdeClaro);
+    padding: 0 100px;
+}
