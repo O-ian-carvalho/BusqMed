@@ -42,12 +42,37 @@
     margin-top: 40px;
 }
 
+#list .card2 {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    gap: 20px; /* Adiciona espaçamento entre os elementos */
+}
+
+#list .card2 textarea {
+    width: 100%; 
+    max-width: 1000px;
+    height: 150px; 
+    padding: 10px; 
+    font-size: 24px; 
+    border: 1px solid var(--cinza-escuro); 
+    border-radius: 8px; 
+    resize: none; 
+    box-sizing: border-box; 
+}
+
+#list .card2 app-botao-blue {
+    align-self: flex-end; 
+    margin-top: 10px; 
+}
+
+
 #list .card input {
-    width: 1000px;
+    width: 1000px; 
     height: 400px;
-    font-size: 16px; 
+    padding: 12px; 
+    font-size: 16px;
     border-radius: 8px; 
     border: 1px solid var(--cinza-escuro); 
-    box-sizing: border-box;
-    margin-bottom: 20px;
+    box-sizing: border-box; 
 }
