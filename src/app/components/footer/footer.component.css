@@ -1,0 +1,53 @@
+/* Reset */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px;
+    height: 110px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* Logo à esquerda */
+footer img {
+    height: 150px; /* Tamanho proporcional ao footer */
+    width: auto;
+}
+
+/* Botões centralizados */
+footer .app-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer .app-main .footer-button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.app-nav {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+  }
+  
+  /* Estilo para os botões dentro do app-nav */
+  .footer-button {
+    background: none;
+    border: none;
+    width: 100%; /* Faz os botões ocuparem toda a largura */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: end;
+  }
+  
