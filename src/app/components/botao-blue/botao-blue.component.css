@@ -10,7 +10,7 @@
 }
 
 .botaoAzul:hover {
-  background-color: var(--azul-claro); 
+  background-color: var(--verdeEscuro); 
   cursor: pointer;
 }
 
