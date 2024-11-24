@@ -1,26 +1,19 @@
 /* Reset */
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #f4f4f4;
-    padding: 10px 20px;
-    height: 80px;
-    border-top: 1px solid #ddd;
+    justify-content: space-around;
+    padding: 0px 0px;
+    height: 110px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 /* Logo à esquerda */
 footer img {
-    height: 50px; /* Tamanho proporcional ao footer */
+    height: 150px; /* Tamanho proporcional ao footer */
     width: auto;
 }
 
@@ -29,12 +22,11 @@ footer .app-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
 }
 
 footer .app-main .footer-button {
-    background-color: #007bff;
-    color: white;
+    background: none;
     border: none;
     padding: 8px 16px;
     margin: 5px 0;
@@ -43,28 +35,19 @@ footer .app-main .footer-button {
     border-radius: 4px;
 }
 
-footer .app-main .footer-button:hover {
-    background-color: #0056b3;
-}
-
-/* Navegação à direita */
-footer .app-nav {
+.app-nav {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-footer .app-nav .footer-button {
+    flex-direction: column; 
+    padding: 10px;
+  }
+  
+  /* Estilo para os botões dentro do app-nav */
+  .footer-button {
     background: none;
     border: none;
-    color: #007bff;
-    font-size: 14px;
-    text-decoration: underline;
+    width: 100%; /* Faz os botões ocuparem toda a largura */
+    font-size: 16px;
     cursor: pointer;
-    padding: 2px 0;
-}
-
-footer .app-nav .footer-button:hover {
-    color: #0056b3;
-    text-decoration: none;
-}
+    text-align: end;
+  }
+  
