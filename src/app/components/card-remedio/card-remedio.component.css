@@ -1,0 +1,30 @@
+#cardREmedio{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: #cfecd2;
+    margin: 30px;
+}
+
+#cardREmedio img{
+    border-radius: 10px 10px 0 0;
+
+}
+
+#cardREmedio #down
+{
+    padding: 10px;
+}
+
+#cardREmedio #down h4{
+    font-size: 15pt;
+    margin: 10px 0;
+}
+
+#cardREmedio #down p{
+    text-align: justify;
+}

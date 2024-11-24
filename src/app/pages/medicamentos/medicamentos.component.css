@@ -1,0 +1,53 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+    padding-bottom: 100px;
+}
+
+#home #top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 120px;
+}
+#home #top img{
+    width: 400px;
+    margin-left: 40px;
+}
+#quemsomos h3{
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+#quemsomos p{
+    font-size: 17pt;
+}
+
+
+
+
+#pesquisarMed{
+    display: flex;
+    flex-direction: column;
+}
+
+#pesquisarMed #top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pesquisarMed #top input{
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#listMEd{
+    display: flex;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

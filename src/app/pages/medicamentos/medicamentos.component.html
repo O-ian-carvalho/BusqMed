@@ -1,0 +1,27 @@
+<div id="home">
+    <div id="top">
+        <div id="quemsomos">
+            <h3>MEDICAMENTOS</h3>
+            <p>BusqueMED tem como objetivo simplicar a busca por serviços de 
+                saúde, promovendo mais transparência, eciência e inclusão digital. A 
+                plataforma é uma ferramenta estratégica para melhorar a comunicação 
+                entre o governo e os cidadãos, garantindo que todos tenham acesso 
+                rápido e preciso a informações fundamentais para sua saúde e bem
+                estar.</p>
+        </div>
+        <img src="BUSQMED_IMAGEM_1.png" alt="">
+    </div>
+
+
+    <div id="pesquisarMed">
+        <div id="top">
+            <input (input)="onInputChange($event)" type="text" placeholder="Escreva o medicamento que está procurando">
+        </div>
+
+        <div  id="listMEd">
+            <app-card-remedio  *ngFor="let medicamento of arrayListDisplay" [titulo]="medicamento.titulo" [descricao]="medicamento.descricao"></app-card-remedio>
+           
+        </div>
+    </div>
+   
+</div>
