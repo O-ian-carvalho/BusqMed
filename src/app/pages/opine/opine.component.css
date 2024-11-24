@@ -1,40 +1,42 @@
-#home{
+#home {
     display: flex;
     flex-direction: column;
     background-color: var(--cinza);
     padding-bottom: 100px;
 }
 
-#home #top{
+#home #top {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 60px 120px;
 }
-#home #top img{
+
+#home #top img {
     width: 400px;
     margin-left: 40px;
 }
-#opine h3{
+
+#opine h3 {
     font-size: 22pt;
     margin-bottom: 40px;
 }
 
-#opine p{
+#opine p {
     font-size: 17pt;
 }
 
-#list p{
+#list p {
     font-size: 17pt;
 }
 
-#list{
+#list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-#list .card{
+#list .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,35 +46,78 @@
 
 #list .card2 {
     display: flex;
-    flex-direction: column; /* Organiza os elementos verticalmente */
-    align-items: flex-start; /* Alinha os itens à esquerda */
-    gap: 20px; /* Adiciona espaçamento entre os elementos */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 #list .card2 textarea {
-    width: 100%; 
+    width: 100%;
     max-width: 1000px;
-    height: 150px; 
-    padding: 10px; 
-    font-size: 24px; 
-    border: 1px solid var(--cinza-escuro); 
-    border-radius: 8px; 
-    resize: none; 
-    box-sizing: border-box; 
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--cinza-escuro);
+    border-radius: 8px;
+    resize: none;
+    box-sizing: border-box;
 }
 
 #list .card2 app-botao-blue {
-    align-self: flex-end; 
-    margin-top: 10px; 
+    align-self: flex-end;
+    margin-top: 10px;
 }
-
 
 #list .card input {
-    width: 1000px; 
-    height: 400px;
-    padding: 12px; 
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    padding: 12px;
     font-size: 16px;
-    border-radius: 8px; 
-    border: 1px solid var(--cinza-escuro); 
-    box-sizing: border-box; 
+    border-radius: 8px;
+    border: 1px solid var(--cinza-escuro);
+    box-sizing: border-box;
 }
+
+
+@media (max-width: 1024px) {
+    #home #top {
+        flex-direction: column;
+        padding: 40px 60px;
+    }
+
+    #home #top img {
+        width: 300px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #opine h3 {
+        font-size: 20pt;
+    }
+
+    #opine p {
+        font-size: 14pt;
+    }
+
+    #list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #list .card {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #list .card2 textarea {
+        max-width: 100%;
+    }
+
+    #list .card2 app-botao-blue {
+        align-self: center;
+        width: 100%;
+        max-width: 140px;
+    }
+}
+
