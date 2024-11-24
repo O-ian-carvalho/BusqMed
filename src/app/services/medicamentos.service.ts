@@ -13,7 +13,7 @@ export class MedicamentosService {
 
   getMedicamentos() : Observable<any>
   {
-    return this.client.get(`http://localhost:3000/medicamentos`);
+    return this.client.get(`https://busque-med-front.vercel.app/db/medicamentos`);
   }
 
 
