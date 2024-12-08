@@ -16,26 +16,26 @@
                 Estamos prontos para tirar suas dúvidas e atender às suas necessidades.</p>
         </div>
 
-        <div class="card2">
-            <textarea id="mensagem" placeholder="Escreva sua mensagem nesse campo" rows="1" cols="100"></textarea>
-            <app-botao-blue Titulo="ENVIAR"></app-botao-blue>
-        </div>
+<!--         <div class="card2"> -->
+<!--             <textarea id="mensagem" placeholder="Escreva sua mensagem nesse campo" rows="1" cols="100"></textarea> -->
+<!--             <app-botao-blue Titulo="ENVIAR"></app-botao-blue> -->
+<!--         </div> -->
       
-<!--       <div class="card2"> -->
-<!--         <form (ngSubmit)="enviarMensagem()"> -->
-<!--           <textarea id="mensagem" name="mensagem" -->
-<!--             *ngIf="!mensagemEnviada"  -->
-<!--             [(ngModel)]="mensagem"  -->
-<!--             name="mensagem"  -->
-<!--             placeholder="Escreva sua mensagem nesse campo"  -->
-<!--             rows="1"  -->
-<!--             cols="100"> -->
-<!--           </textarea> -->
-<!--           <app-botao-blue input type="submit" value="Enviar" -->
-<!--             Titulo="ENVIAR"  -->
-<!--             (click)="enviarMensagem()"> -->
-<!--           </app-botao-blue> -->
-<!--         </form> -->
-<!--       </div> -->
+      <div class="card2">
+        <form (ngSubmit)="enviarMensagem()">
+          <textarea id="mensagem" name="mensagem"
+            *ngIf="!mensagemEnviada" 
+            [(ngModel)]="mensagem" 
+            name="mensagem" 
+            placeholder="Escreva sua mensagem nesse campo" 
+            rows="1" 
+            cols="100">
+          </textarea>
+          <app-botao-blue input type="submit" value="Enviar"
+            Titulo="ENVIAR" 
+            (click)="enviarMensagem()">
+          </app-botao-blue>
+        </form>
+      </div>
     </div>
 </div>
