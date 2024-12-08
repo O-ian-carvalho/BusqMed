@@ -58,7 +58,7 @@
     max-width: 100%; 
     height: 400px; /* Altura do textarea */
     padding: 10px; /* Espaçamento interno */
-    font-size: 1.5rem; /* Tamanho da fonte */
+    font-size: 1.06rem; /* Tamanho da fonte */
     border-radius: 12px; /* Cantos arredondados */
     box-sizing: border-box; /* Inclui padding e borda no tamanho total */
 }
