@@ -17,13 +17,13 @@
         </div>
 
 <!--         <div class="card2"> -->
-<!--             <textarea placeholder="Escreva sua mensagem nesse campo" rows="1" cols="100"></textarea> -->
+<!--             <textarea id="mensagem" placeholder="Escreva sua mensagem nesse campo" rows="1" cols="100"></textarea> -->
 <!--             <app-botao-blue Titulo="ENVIAR"></app-botao-blue> -->
 <!--         </div> -->
       
       <div class="card2">
         <form (ngSubmit)="enviarMensagem()">
-          <textarea 
+          <textarea id="mensagem" name="mensagem"
             *ngIf="!mensagemEnviada" 
             [(ngModel)]="mensagem" 
             name="mensagem" 
@@ -31,7 +31,7 @@
             rows="1" 
             cols="100">
           </textarea>
-          <app-botao-blue 
+          <app-botao-blue input type="submit" value="Enviar"
             Titulo="ENVIAR" 
             (click)="enviarMensagem()">
           </app-botao-blue>
