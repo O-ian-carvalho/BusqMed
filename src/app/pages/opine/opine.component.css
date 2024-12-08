@@ -18,17 +18,17 @@
 }
 
 #opine h3 {
-    font-size: 22pt;
+    font-size: 1.375rem;
     margin-bottom: 40px;
     align-items: center;
 }
 
 #opine p {
-    font-size: 17pt;
+    font-size: 1.06rem;
 }
 
 #list p {
-    font-size: 17pt;
+    font-size: 1.06rem;
 }
 
 #list {
@@ -58,7 +58,7 @@
     max-width: 100%; 
     height: 400px; /* Altura do textarea */
     padding: 10px; /* Espaçamento interno */
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
     border-radius: 12px; /* Cantos arredondados */
     box-sizing: border-box; /* Inclui padding e borda no tamanho total */
 }
@@ -73,7 +73,7 @@
     max-width: 1000px;
     height: auto;
     padding: 12px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 8px;
     border: 1px solid var(--cinza-escuro);
     box-sizing: border-box;
@@ -93,11 +93,11 @@
     }
 
     #opine h3 {
-        font-size: 20pt;
+        font-size: 1.25rem;
     }
 
     #opine p {
-        font-size: 14pt;
+        font-size: 1.06rem;
     }
 
     #list {
