@@ -1,16 +1,23 @@
 import { Component } from '@angular/core';
 import { BotaoBlueComponent } from "../../components/botao-blue/botao-blue.component";
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-opine',
   standalone: true,
-  imports: [BotaoBlueComponent],
+  imports: [BotaoBlueComponent, BrowserModule, FormsModule],
   templateUrl: './opine.component.html',
   styleUrl: './opine.component.css'
 })
 export class OpineComponent {
-onInputChange($event: Event) {
-throw new Error('Method not implemented.');
-}
+  mensagem: string = ''; // Declare a variável vinculada ao ngModel
+  mensagemEnviada: boolean = false;
+  onInputChange($event: Event) {
+  throw new Error('Method not implemented.');
+  }
 
+  enviarMensagem() : void{
+    alert("Mensagem enviada com sucesso");
+  }
 }
